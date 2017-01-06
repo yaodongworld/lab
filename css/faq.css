@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(openSans.ttf) format('truetype');
+}
+
+body.faq {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 660px;
+    margin: 2rem auto 30rem;
+}
+
+@media screen and (max-width: 683px) {
+	body.faq {
+		margin: 2rem 1rem 30rem;
+	}
+}
+
+.header-block {
+    text-align: center;
+}
+
+.header-block > h2 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.header-block > hr {
+    border: 1px solid black;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.questions h4, .answers h4 {
+	font-size: 2rem;
+	padding: 1rem;
+    margin: 3rem auto 2rem;
+    background-color: #d43133;
+    color: #fff;
+}
+
+.answers h4 {
+    background-color: #d43133;
+}
+
+.questions li {
+	margin-bottom: 0.5rem;
+	color: #214681;
+	list-style-type: disc;
+}
+
+.answers li {
+    font-weight: 700;
+    margin: 2rem auto;
+    list-style-type: none;
+}
+
+.questions li > a {
+	text-decoration: none;
+    border-bottom: 0;
+    color: #224780;
+}
+
+.questions li > a:hover {
+    color: #497cc9;
+}
+
+.answers p {
+    border-left: 2px solid #ccc;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
